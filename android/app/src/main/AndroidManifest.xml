@@ -27,6 +27,7 @@
             android:name="flutterEmbedding"
             android:value="2" />
 
+        <!-- When a new notification or token receive HMS will call our service -->
         <service
             android:name=".NativeHMSMessageService"
             android:enabled="true">
